@@ -1,0 +1,321 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* --------------------------------Header CSS starts here-----------------------------*/
+
+
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(18, 112, 219);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+
+
+}
+
+.nav-button1 ul li{
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+    
+}
+
+.nav-button1 ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: smaller;
+    
+}
+
+/*----------------------Header CSS ends here----------------------*/
+
+.main-content{
+    height: auto;
+    background-color: rgb(207, 236, 245);
+}
+
+
+
+/*----------start of footer--------------*/
+.footer{
+    height: 130px;
+    background-color: rgb(31, 31, 146);
+    float: left;
+    width: 100%;
+}
+
+.footer-content1, .footer-content2, .footer-content3, .footer-copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 300px;
+    padding-top: 20px;
+    
+}
+
+.footer-content1 > a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: sans-serif;
+    
+}
+
+.footer-content2{
+    margin-top: -15px;
+}
+.footer-content2 > a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: sans-serif;
+
+}
+
+.footer-content3{
+    margin-top: -15px;
+}
+.footer-content3 > a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: sans-serif;
+   
+}
+
+.footer-copyright{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: sans-serif;
+    margin-left: 50%;
+  
+
+}
+/*-------end of footer--------*/
+
+.deals-div1{
+    height: 300px;
+    padding-top: 70px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.deals-div2{
+    height: 400px;
+}
+
+.deals-div6{
+    height: 400px;
+}
+
+.deals-div7{
+    height: 400px;
+}
+
+
+.deals-div9, .deals-div11, .deals-div13{  /* Different Seperate divs inside the main container that is the middle section */
+    height: 10%;
+    width: 100%;
+}
+
+.deals-div9, .deals-div11, .deals-div13{
+    height: 8%;
+}
+
+.deals-div3{
+    height: 300px;
+    width: 100%;
+}
+
+.deals-div12{
+    height:270px;
+}
+.deals-div4{
+    height: 350px;
+    width: 100%;
+}
+
+.content-container{  /* main middle part  for contents*/
+    background-color: white;
+    height: 100%;
+    width: 60%;
+    margin: 0% 20%;
+    padding: 10px;
+}
+
+.content-deals1{
+    float: left;
+    height: 300px;
+    width: 65%;
+    background-color: red;
+    border-radius: 0.2cm;
+    content: url(walmart-deals1.png);
+    
+}
+
+.content-deals2{
+    float: left;
+    height: 295px;
+    width: 33%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-left: 10px;
+
+    position: relative; /* positon relative */
+    
+}
+
+.content-deals3{
+    float: left;
+    height: 295px;
+    width: 33%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-left: 10px;
+
+    position: relative; /* positon relative */
+    
+}
+.content-deals1, .content-deals2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cards-text {
+    padding: 2px 16px;
+}
+
+.cards-text{
+    float: left;
+    font-size: small;
+}
+
+.cards-text-content{
+    font-family: sans-serif;
+}
+
+#deal-buttons1{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    border-radius: 0.2cm;
+    padding: 5px;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    font-family: sans-serif;
+
+    position: absolute; /* position absolute*/
+    bottom: 50px;
+    left: 5px;
+
+}
+
+.cards-details-desc{
+    color: black;
+    font-size: 10px;
+    font-family: sans-serif;
+
+    position: absolute;
+    bottom: 0.5px;
+    left: 10px;
+}
+
+.deals-div2, .deals-div9, .deals-div6, .deals-div7, .deals-div11{
+    background-color: white;
+    box-sizing: border-box;
+}
+
+/*high width banner 1 styling ahead*/
+
+.high-width-banner1{
+
+    
+    font-family: sans-serif;
+    font-size: small;
+    text-align: center;
+    border-radius: 0.1cm;
+    border-color: blue;
+
+}
+
+
+/* 2nd part of deals styling after high width banner ends */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .deals-div2-card{
+    margin-left: 2px;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    height: 350px;
+
+    font-size: small;
+    
+  }
+  
+  .deals-div2-card{
+    position: relative;
+  }
+
+  .div2-fonts{
+    font-family: sans-serif;
+    font-size: 8px;
+    color: rgb(0, 22, 165);
+    background-color: rgb(207, 236, 245);
+    width: 25px;
+    padding: 5px;
+    height: 15px;
+    float: left;
+    margin-left: 1px;
+    margin-top: -5px;
+  }
+
+  .div5-card{
+    
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+  }
+
+  .div7-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 49%;
+    border-radius: 5px;
+    height: 370px;
+    
+  }
+
+  *{
+    font-family: sans-serif;
+  }
